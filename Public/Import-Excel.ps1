@@ -176,9 +176,9 @@
                             if ($StartRow -eq 1 -and $EndRow -eq 1) {
                                 $rows = 0
                             }
-							elseif ($StartRow -eq $EndRow) {
-								$rows = 0
-							}
+                            elseif ($StartRow -eq $EndRow) {
+                                $rows = 0
+                            }
                         }
 
                         # ; if ($StartRow -ge $EndRow) { Write-Warning -Message "Selecting $StartRow as the header with data in $(1+$StartRow) to $EndRow might give odd results." } }
